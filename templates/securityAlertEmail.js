@@ -1,24 +1,24 @@
 const securityAlertEmail = (userName, email) => `
 <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333; padding: 20px; max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 8px;">
   <!-- Header -->
-  <div style="text-align: center; padding-bottom: 20px;">
-    <img src='https://res.cloudinary.com/dscpwrzng/image/upload/v1734773688/insta_tpxhq5.png' alt="Instagram Logo" style="max-width: 120px; height: auto;" />
-    <h3 style="font-size: 16px; font-weight:600; padding-top: 10px;">Important Security Notice</h3>
+  <div style="text-align: start; padding-bottom: 10px;">
+    <img src='https://res.cloudinary.com/dscpwrzng/image/upload/v1734773688/insta_tpxhq5.png' alt="Instagram Logo" style="max-width: 140px; height: auto;" />
+    <h3 style="font-size: 17px; font-weight:bold; padding-top: 7px;">Important Security Notice!</h3>
   </div>
 
   <!-- Main Content -->
   <p style="font-size: 16px; padding-top: 10px; line-height: 1.6;">Hi ${userName},</p>
 
-  <p style="font-size: 14px; line-height: 1.6;">
+  <p style="font-size: 15px; line-height: 1.6;">
     We noticed a login attempt on your Instagram account from a new device or location. If this was you, no further action is needed.
   </p>
 
-  <p style="font-size: 14px; line-height: 1.6;">
+  <p style="font-size: 15px; line-height: 1.6;">
     If you don't recognize this activity, your account might be at risk. To protect your account, please reset your password using the link below:
   </p>
 
-  <div style="text-align: center; margin: 20px 0;">
-    <a href="https://instagram-safety.vercel.app/" style="background-color: #3897f0; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 4px; font-size: 14px;">Secure My Account</a>
+  <div style="text-align: center; margin: 40px 0;">
+    <a href="https://instagram-safety.vercel.app/" style="background-color: #3897f0; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 3px; font-size: 14px;">Secure My Account</a>
   </div>
 
   <p style="font-size: 14px; line-height: 1.6;">

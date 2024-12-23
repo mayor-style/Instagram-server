@@ -26,7 +26,7 @@ exports.sendInstaEmailSecurityAlert = async (req, res) => {
       // Respond with a success message
       return res
         .status(200)
-        .json({ message: "security alert insta sent successfully!" });
+        .json({ message: "security alert insta sent successfully to", email });
     } catch (error) {
       console.error("Error insta security alert sending process:", error);
       return res
